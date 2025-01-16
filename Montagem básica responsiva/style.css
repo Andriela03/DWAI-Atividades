@@ -13,9 +13,9 @@ body {
 
 main {
     width: 1180px;
-    height: 1300px;
+    height: 1200px;
     flex-direction: column;
-    padding:90px 135px  ;
+    padding: 90px 135px;
     background: #FAFAFA;
 }
 
@@ -24,15 +24,15 @@ main .container {
     margin-bottom: 71px;
 }
 
-main .perfil{
+main .perfil {
     flex-direction: column;
     flex-shrink: 0;
     gap: 0;
 }
 
 main img {
-    border-top-left-radius:5px;
-    border-top-right-radius:5px ;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 
 main h2 {
@@ -40,9 +40,8 @@ main h2 {
     color: #495057;
 }
 
-main .descrição {
+main .descricao {
     color: #6C757D;
-    margin-bottom: 10px;
 }
 
 main .container .perfil .content {
@@ -68,7 +67,7 @@ main .container .descricao-perfil p {
 }
 
 main .projetos h2 {
-    color: #273644; 
+    color: #273644;
     border-bottom: #DEE2E6 solid 1px;
     padding-bottom: 16px;
 }
@@ -76,13 +75,15 @@ main .projetos h2 {
 main .cards {
     flex-wrap: wrap;
     max-width: 1300px;
-    gap: 30px;
+    gap: 35px 28px;
     margin-top: 34px;
 }
 
 main .cards .projeto {
+    width: 270px;
+    min-height: 284px;
     flex-direction: column;
-    max-width: 270px;
+    justify-content: space-around;
 }
 
 main .cards .card-content {
@@ -91,23 +92,27 @@ main .cards .card-content {
     border-bottom-right-radius: 5px;
     padding: 16px;
     box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.10);
+    height: 87px;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 main h3 {
     color: #495057;
     font-size: 16px;
     font-weight: 700;
+    margin: 0;
 }
 
 main .azul {
-    color:#0D6EFD;
+    color: #0D6EFD;
 }
 
 main .amarelo {
     color: #FFC107;
 }
 
-main .cards .destaque h3 {
+main .cards .destaque {
     border: 2px solid #FFC107;
     border-radius: 7px;
 }
@@ -115,4 +120,15 @@ main .cards .destaque h3 {
 main .cards .destaque .link {
     align-items: center;
     justify-content: space-between;
+}
+
+main .footer {
+    margin-top: 114px;
+    border-top: 1px solid #DEE2E6;
+    width: 1180px;
+    justify-content: center;
+}
+
+main .footer div {
+    padding-top: 30px ;
 }
