@@ -12,6 +12,11 @@ body {
     display: flex;
 }
 
+main {
+    justify-content: center;
+    align-items: center;
+}
+
 main .container-perfil {
     gap: 32px;
     margin-bottom: 71px;
@@ -20,7 +25,7 @@ main .container-perfil {
 main .perfil {
     flex-direction: column;
     flex-shrink: 0;
-    min-width: 30%;
+    flex-basis: 25%;
 }
 
 main img {
@@ -117,19 +122,12 @@ main .cards .destaque .link {
 footer {
     width: 100%;
     margin-top: 114px;
+    justify-content: center;
 }
 
 footer div {
     border-top: 1px solid #DEE2E6;
     padding-top: 30px;
-    display: flex;
-    justify-content: center;
-    color: #6C757D;;
 }
 
-@media (max-width:600px) {
-    .container-perfil {
-        flex-direction:column;
-    }
-}
 
