@@ -61,7 +61,7 @@ main .container-perfil .descricao-perfil p {
 main .projetos h2 {
     color: #273644;
     border-bottom: #DEE2E6 solid 1px;
-    padding-bottom: 16px;
+    padding: 16px;
 }
 
 main .cards {
