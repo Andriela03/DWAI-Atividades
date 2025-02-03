@@ -1,3 +1,35 @@
+body {
+    height: 100%;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+}
+
+
 .flex {
     display: flex;
+}
+
+.centralizar {
+    align-items: center;
+    justify-content: center;
+}
+
+.coluna {
+    flex-direction: column;
+}
+
+.centralizar-vertical {
+    align-items: center;
+}
+
+.alinhar-extremidades {
+    justify-content: space-between;
+}
+
+.distribuir-espacamento{
+    justify-content: space-around;
 }
