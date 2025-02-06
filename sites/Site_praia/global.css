@@ -13,4 +13,20 @@ body {
     justify-self: center;
     align-items: center;
     font-family: "Lato", sans-serif;
+    margin: 0;
+}
+
+li {list-style: none;
+}
+
+.container {
+    max-width: 1200px;
+}
+.azul {
+    color:#2648A1 ;
+}
+
+.centralizar {
+    justify-content: center;
+    align-items:center ;
 }

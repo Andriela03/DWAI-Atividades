@@ -1,0 +1,59 @@
+header {
+    width: 100%;
+    background: linear-gradient(265deg, #203C86 46.03%, #203C86 53.97%);
+    color: #fff;
+    padding: 12px 0px;
+    height: 114px;
+    gap: 12px;
+}
+
+.section-top {
+    justify-content: flex-end;
+    border-bottom: #fff solid 1px;
+    width: 100%;
+    align-items: center;
+}
+
+header .section-top .descricao {
+    font-family: Montserrat;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 300;
+}
+
+header .section-top .icons {
+    gap: 20px;
+    padding-bottom:12px;
+}
+
+header .logo {
+    justify-content: space-between;
+}
+
+header menu {
+    gap: 43px;
+    margin: 0;
+}
+
+header li {
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+
+header .logo li:hover {
+    font-style: bold;
+    font-weight: 700;
+    border-bottom: 3px solid #FFC82C;
+}
+
+header .logo {
+    align-items: center;
+}
+
+.container .title small {
+    text-align: right;
+}
+.container .title h1 {
+    margin-top: 100px;
+
+}

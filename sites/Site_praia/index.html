@@ -6,37 +6,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="global.css">
     <title>E-pipa</title>
 </head>
 
-<body>
-    <header>
-        <section class="senction-top">
-            <div class="descricao">SIGA AS REDES SOCIAIS</div>
-            <nav class="flex">
-                <menu class="flex">
-                    <li><i class="fa-brands fa-youtube" style="color: #FFD43B;"></i></li>
-                    <li><i class="fa-brands fa-facebook-f" style="color: #FFD43B;"></i></li>
-                    <li><i class="fa-brands fa-instagram" style="color: #FFD43B;"></i></li>
-                </menu>
-            </nav>
-            <span class="linha"></span>
-        </section>
-        <section class="flex">
-            <figure>
-                <img src="img/Frame.svg" alt="Pipa">
-            </figure>
-            <nav>
-                <menu class="flex">
-                    <li>Sobre nós</li>
-                    <li>Eventos</li>
-                    <li>Fale Conosco</li>
-                    <li>Área Agente</li>
-                </menu>
-            </nav>
+<body class="flex centralizar coluna">
+    <header class="flex coluna">
+        <section class="">
+            <section class="section-top flex">
+                <div class="descricao">SIGA AS REDES SOCIAIS</div>
+                <nav class="flex">
+                    <menu class="icons flex">
+                        <li><i class="fa-brands fa-youtube" style="color: #FFD43B;"></i></li>
+                        <li><i class="fa-brands fa-facebook-f" style="color: #FFD43B;"></i></li>
+                        <li><i class="fa-brands fa-instagram" style="color: #FFD43B;"></i></li>
+                    </menu>
+                </nav>
+            </section>
+            <section class="logo flex">
+                <figure>
+                    <img src="img/Frame.svg" alt="Pipa">
+                </figure>
+                <nav>
+                    <menu class="flex">
+                        <li>Sobre nós</li>
+                        <li>Eventos</li>
+                        <li>Fale Conosco</li>
+                        <li>Área Agente</li>
+                    </menu>
+                </nav>
+            </section>
         </section>
     </header>
-    <main class="flex">
+    <main class="container flex coluna">
         <section>
             <div class="title">
                 <h1>Sobre a E-pipa Experience</h1>
@@ -127,7 +130,61 @@
             </div>
         </section>
     </main>
-    <footer></footer>
+    <footer class="flex">
+        <section class="section-container">
+            <section class="left">
+                <figure>
+                    <img src="img/Frame.png" alt="">
+                </figure>
+                <ul>
+                    <li> <i class="fa-thin fa-location-dot" style="color: #8492A6;"></i>
+                        <span>Rua das Conchas, 1621, Praia da Pipa
+                            Tibau do Sul / RN / Brasil</span>
+                    </li>
+                    <li>
+                        <i class="fa-thin fa-phone" style="color:#8492A6;"></i>
+                        <span>+55 (84) 99684.8696</span>
+                    </li>
+                    <li><i class="fa-thin fa-envelope" style="color: #8492A6;"></i>
+                        <span>atendimento@epipaexperience.com</span>
+                    </li>
+                    <li class="flex">
+                        <i class="fa-brands fa-youtube"></i>
+                        <i class="fa-brands fa-instagram" style="color: #8492A6;"></i>
+                        <i class="fa-brands fa-facebook-f" style="color: #8492A6;"></i>
+                    </li>
+                </ul>
+            </section>
+            <div class="section-middle flex">
+                <ul>
+                    <li><a href="#">Sobre nós</a></li>
+                    <li><a href="#">Nosso parceiros</a></li>
+                    <li><a href="#">Eventos Pipa</a></li>
+                    <li><a href="#">Nosso eventos</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#">Casas para a temporada</a></li>
+                    <li><a href="#">Hotéis e pousadas</a></li>
+                    <li><a href="#">Passeios</a></li>
+                    <li><a href="#">Experiências</a></li>
+                </ul>
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in </p>
+        </section>
+        <div class="right">
+            <div class="flex">
+                <h3>Fique por dentro</h3>
+                <p>Acompanhe novidades, promoções, descontos e tudo que preparamos para você.</p>
+            </div>
+            <button class="flex">
+                <i class="fa-brands fa-telegram"></i>
+                Entrar para o Telegram
+            </button>
+        </div>
+    </footer>
 </body>
 
 </html>
