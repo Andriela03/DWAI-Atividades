@@ -9,12 +9,12 @@ header {
 
 .section-top {
     justify-content: flex-end;
-    width: 100%;
     align-items: center;
+    max-width: 1170px;
 }
 
 header .section-top .descricao {
-    font-family: Montserrat;
+    font-family: "Montserrat";
     font-size: 11px;
     font-style: normal;
     font-weight: 300;
@@ -23,7 +23,6 @@ header .section-top .descricao {
 header .section-top .icons {
     gap: 20px;
     height: 20px;
-    margin-right: 180px;
 }
 
 .linha-1 {
@@ -41,7 +40,7 @@ header .logo {
 
 header menu {
     gap: 43px;
-    margin: 0 20px 0 0;
+    margin: 0;
 }
 
 header li {
@@ -59,14 +58,42 @@ header .logo li:hover {
     border-bottom: 3px solid #FFC82C;
 }
 
+.container .bloco-1 {
+    max-width: 62%;
+}
+
 .container .title h1 {
-    margin-top: 100px;
+    margin-top: 80px;
     font-size: 38px;
 }
 
 .container .title small {
     align-self: flex-end;
+    color: #4D535B;
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-weight: 500;
+
 }
+
+.container .title h3{
+    align-self: flex-end;
+    font-style: italic;
+    font-weight: 400;
+    font-family: "Montserrat";
+    font-size: 21px;
+}
+
+.container .bloco-2 {
+    justify-content: flex-end;
+
+}
+
+.container .bloco-2 div p {
+    max-width: 30%;
+
+}
+
 
 
 
