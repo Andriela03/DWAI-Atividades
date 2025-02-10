@@ -44,7 +44,7 @@ header li {
     padding-bottom: 10px;
 }
 
-header li a {
+a {
     color: #fff;
     text-decoration: none;
 }
@@ -169,8 +169,29 @@ main p {
     margin: 0;
 }
 
+footer {
+    width: 100%;
+    color: #E0E6ED;
+    margin-top: 110px;
+    padding: 60px;
+    background: var(--Linear, linear-gradient(130deg, #0D3F82 23.84%, #001736 73.02%));
+}
 
+footer .left {
+    gap: 47px;
+}
 
+footer .left ul {
+    gap: 24px;
+}
+
+footer .left ul li {
+    gap: 8px;
+}
+
+footer .left ul .icons-2 {
+    gap: 16px;
+}
 
 
 
