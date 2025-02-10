@@ -152,8 +152,22 @@ main p {
     font-family: "Montserrat";
 }
 
+.container .card-image h3 {
+    margin: 0;
+    color: var(--Prata, #3C4858);
+    font-family: "Montserrat";
+    font-size: 18px;
+}
 
+.container .card-image .credito {
+    color: var(--Prata, #3C4858);
+    font-family: "Montserrat";
+    font-size: 13px;
+}
 
+.card-image {
+    margin: 0;
+}
 
 
 
