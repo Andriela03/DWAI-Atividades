@@ -16,22 +16,44 @@ body {
     margin: 0;
 }
 
-li {list-style: none;
+li {
+    list-style: none;
 }
 
 .container {
     max-width: 1200px;
-    padding: 20px;
+    width: 100%;
 }
+
+.container-menor {
+    max-width: 800px;
+}
+
 .azul {
     color:#2648A1 ;
 }
 
 .centralizar {
     justify-content: center;
-    align-items:center ;
+    align-items: center;
 }
 
 .centralizar-horizontal {
     justify-content: center;
+}
+
+.alinhar-extremidades {
+    justify-content: space-between;
+}
+
+.centralizar-vertical {
+    align-items: center;
+}
+
+.gap {
+    gap: 10px;
+}
+
+.alinhar-direita {
+    justify-content: flex-end;
 }

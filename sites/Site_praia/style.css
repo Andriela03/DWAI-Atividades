@@ -4,13 +4,10 @@ header {
     color: #fff;
     padding: 12px 0px;
     height: 114px;
-    gap: 12px;
 }
 
 .section-top {
-    justify-content: flex-end;
     align-items: center;
-    max-width: 1170px;
 }
 
 header .section-top .descricao {
@@ -34,7 +31,6 @@ header .section-top .icons {
 }
 
 header .logo {
-    justify-content: space-around;
     align-items: center;
 }
 
@@ -58,11 +54,7 @@ header .logo li:hover {
     border-bottom: 3px solid #FFC82C;
 }
 
-.container .bloco-1 {
-    max-width: 62%;
-}
-
-.container .title h1 {
+.container .conteudo-1 .title h1 {
     margin-top: 80px;
     font-size: 38px;
 }
@@ -76,7 +68,7 @@ header .logo li:hover {
 
 }
 
-.container .title h3{
+.conteudo-1 .title h3 {
     align-self: flex-end;
     font-style: italic;
     font-weight: 400;
@@ -84,15 +76,82 @@ header .logo li:hover {
     font-size: 21px;
 }
 
-.container .bloco-2 {
-    justify-content: flex-end;
-
+.conteudo-1 figure {
+    margin: 74px 0;
 }
 
-.container .bloco-2 div p {
-    max-width: 30%;
 
+main p {
+    color: var(--Prata, #3C4858);
+    font-family: Lato;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 170%;
 }
+
+.container-menor p {
+    margin-bottom: 76px;
+}
+
+.container .conteudo-1 .title-2 {
+    margin-bottom: 35px;
+}
+
+.container small {
+    font-family: "Montserrat";
+    font-size: 14px;
+}
+
+.container h2 {
+    margin: 0 0 7px 0;
+    font-family: "Montserrat";
+}
+
+.container .conteudo-1 .title-2 .amarelo {
+    display: block;
+    width: 100px;
+    height: 4px;
+    background: var(--Gradiente-Laranja, linear-gradient(90deg, #E79A30 0.27%, #E8B743 99.65%));
+}
+
+.conteudo-2 p {
+    max-width: 435px;
+    margin: 0;
+} 
+
+.container .conteudo-2 {
+   width: 100%;
+}
+
+.container .conteudo-2 figure img {
+    max-width: 100%;
+    transform: scale(105%);  
+    margin-bottom: 10px;
+}
+
+.container .conteudo-2 figure figcaption {
+    border: 1px solid #203C86;
+    width: 439px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 10px;
+    font-family: "Montserrat";
+}
+
+.container .conteudo-2 figure figcaption h3 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.container .conteudo-2 figure figcaption div {
+    font-size: 13px;
+}
+
+.container .conteudo-3 {
+    width: 100%;
+    font-family: "Montserrat";
+}
+
 
 
 
