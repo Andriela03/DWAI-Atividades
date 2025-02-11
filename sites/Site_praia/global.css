@@ -53,5 +53,10 @@ li {
 }
 
 .alinhar-direita {
+    text-align: right;
+}
+
+.alinhar-direita-2 {
     justify-content: flex-end;
 }
+
