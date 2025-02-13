@@ -78,6 +78,18 @@ main .cards .projeto {
     flex-direction: column;
 }
 
+main .cards .e-pipa figure {
+    margin: 0;
+    background-color: #203C86;
+    padding: 50px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+main .cards .e-pipa img {
+    height: 60px;
+}
+
 main .cards .card-content {
     background-color: #fff;
     border-bottom-left-radius: 5px;
