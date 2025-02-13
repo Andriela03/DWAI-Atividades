@@ -54,7 +54,7 @@ header menu {
 
 header li {
     font-size: 16px;
-    padding-bottom: 10px;
+    padding: 20px 0 35px 0;
 }
 
 a {
@@ -64,7 +64,7 @@ a {
 
 header .logo li:hover {
     font-weight: bold;
-    border-bottom: 3px solid #FFC82C;
+    border-bottom: 6px solid #FFC82C;
 }
 
 .container .conteudo-1 .title h1 {
@@ -136,8 +136,6 @@ main p {
 
 .container .conteudo-2 figure img {
     max-width: 100%;
-    transform: scale(105%);
-    margin-bottom: 10px;
 }
 
 .container .conteudo-2 figure figcaption {
@@ -276,11 +274,19 @@ footer .right button:hover {
 
     .container .conteudo-2 {
         flex-wrap: wrap-reverse;
-        width: 100%;
+        max-width: 90%;
+    }
+
+    .container .conteudo-2 p {
+        margin-top: 30px;
     }
 
     .container img  {
         width: 100%;
+    }
+    
+    .conteudo-3 {
+        width: 80%;
     }
 
     footer {
