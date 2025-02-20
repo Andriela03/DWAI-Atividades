@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+body {
+    font-family: "inter";
+    margin: 0;
+}
+
+
+.flex {
+    display: flex;
+}
+
+.centralizar {
+    justify-content: center;
+    align-items: center;
+}
+
+.centralizar-vertical {
+    align-items: center;
+}
+
+.centralizar-horizontal {
+    justify-content: center;
+}
+
+.alinhar-extremidades {
+    justify-content: space-between;
+}
