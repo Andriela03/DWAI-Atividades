@@ -6,10 +6,7 @@ header {
 header button {
     background-color: #F60;
     border-radius: 4px;
-    display: flex;
     padding: 4px 16px;
-    justify-content: center;
-    align-items: center;
     gap: 10px;
     border: none;
     color: #fff;
@@ -22,4 +19,53 @@ header button:hover {
 header div {
     gap: 16px;
 }
+
+header div strong {
+    color:#0F3679;
+}
+
+main .sidebar {
+    padding: 40px var(--spacing-spacing-md, 24px);
+    border-right: 1px solid #E5E7EB;
+    max-width: 167px;
+}
+
+main .sidebar {
+    padding: 40px;
+}
+
+main .sidebar menu li {
+    list-style: none;
+}
+
+main .sidebar menu a {
+    color: #0D5EAF;
+}
+
+main .sidebar menu img {
+    padding: 10px   ;
+}
+
+main .sidebar menu .button {
+    padding: var(--spacing-spacing-sm, 8px);
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

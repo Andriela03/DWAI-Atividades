@@ -26,3 +26,15 @@ body {
 .alinhar-extremidades {
     justify-content: space-between;
 }
+
+.alinhar-direita {
+    align-self: flex-end;
+}
+
+.coluna {
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+}
