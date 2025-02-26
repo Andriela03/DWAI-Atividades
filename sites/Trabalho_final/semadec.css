@@ -40,8 +40,11 @@ main .sidebar {
     padding: 40px;
 }
 
-main .sidebar menu {
-    
+
+main .sidebar menu{
+    gap: var(--spacing-spacing-base, 16px);
+    margin: 0;
+    padding: 0;
 }
 
 main .sidebar menu li {
@@ -69,6 +72,11 @@ main .sidebar figure {
 
 main .sidebar menu li .button:hover {
     background-color: #F2F9FD;
+}
+
+
+main .sidebar .menu-down {
+    
 }
 
 
