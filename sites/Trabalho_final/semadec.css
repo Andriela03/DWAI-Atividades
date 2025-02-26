@@ -12,6 +12,12 @@ header button {
     color: #fff;
 }
 
+header .progress-circle img {
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+}
+
 header button:hover {
     background-color: #FD8535;
 }
@@ -34,6 +40,10 @@ main .sidebar {
     padding: 40px;
 }
 
+main .sidebar menu {
+    
+}
+
 main .sidebar menu li {
     list-style: none;
 }
@@ -43,13 +53,24 @@ main .sidebar menu a {
 }
 
 main .sidebar menu img {
-    padding: 10px   ;
+    padding: 10px;
 }
 
 main .sidebar menu .button {
     padding: var(--spacing-spacing-sm, 8px);
     
 }
+
+main .sidebar figure {
+    justify-content: end;
+    width: 160px;
+    margin: 0;
+}
+
+main .sidebar menu li .button:hover {
+    background-color: #F2F9FD;
+}
+
 
 
 

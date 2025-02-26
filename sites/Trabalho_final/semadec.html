@@ -8,6 +8,7 @@
 
     <link rel="stylesheet" href="semadec.css">
     <link rel="stylesheet" href="global.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
 
 <body>
@@ -23,11 +24,11 @@
                     <img src="img/pause-circle.png" alt="">
                 </div>
             </button>
-            <div>
+            <div class="flex centralizar-vertical">
                 <div class="progress-circle">
                     <span></span>
                     <div class="avatar">
-                        <img src="global.css" alt="">
+                        <img src="img/Clayton.png" alt="">
                     </div>
                 </div>
                 <div class="flex centralizar-vertical">
@@ -37,25 +38,53 @@
             </div>
         </div>
     </header>
-    <main>
+    <main class="flex">
         <section class="sidebar flex coluna alinhar-extremidades">
             <nav>
-                <figure>
-                    <img src="img/chevron-left.svg" alt="" class="flex alinhar-direita">
+                <figure class="flex">
+                    <a href="#"><img src="img/chevron-left.svg" alt="" class="flex alinhar-direita"></a>
                 </figure>
                 <menu class="flex coluna">
-                    <li class="flex centralizar-vertical">
-                        <img src="img/dashboard.svg" alt="">
-                        <div class="button">
+                    <li>
+                        <div class="flex centralizar-vertical .button">
+                            <img src="img/dashboard.svg" alt="">
                             <a href="#">Dashboard</a>
                         </div>
                     </li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                    <li>
+                        <div class="flex centralizar-vertical .button">
+                            <img src="img/users.svg" alt="">
+                            <a href="#">Inscrições</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="flex centralizar-vertical .button">
+                            <img src="img/report.svg" alt="">
+                            <a href="#">Relatórios</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="flex centralizar-vertical .button">
+                            <img src="img/send (1).svg" alt="">
+                            <a href="#">Comunicação</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="flex centralizar-vertical .button">
+                            <img src="img/" alt="">
+                            <a href="#">Meus eventos</a>
+                        </div>
+                    </li>
                 </menu>
             </nav>
+
+            <section class="menu-down">
+                <menu>
+                    <li>
+                        <i class="fa-solid fa-gear" style="color: #0d5eaf;"></i>
+                    </li>
+                </menu>
+            </section>
         </section>
     </main>
 </body>
