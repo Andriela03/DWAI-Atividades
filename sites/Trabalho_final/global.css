@@ -39,3 +39,26 @@ a {
     text-decoration: none;
 }
 
+.cinza {
+    color: #797D84;
+}
+
+.azul {
+    color: #2E96C9;
+}
+
+.container {
+    max-width: 802px;
+    padding: 45px 19px 0 49px;
+    gap: 32px;
+
+}
+
+.gap {
+    gap: 8px;
+}
+
+
+.gap-2 {
+    gap: 4px;
+}

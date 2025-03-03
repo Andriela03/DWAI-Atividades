@@ -70,20 +70,13 @@ main .sidebar figure {
     margin: 0;
 }
 
-main .sidebar menu li .button:hover {
-    background-color: #F2F9FD;
-}
-
-.container {
-    padding: 52px;
-}
-
 main .container .header {
     gap: 8px;
 }
 
 main .container .header h1 {
     font-size: 24px;
+    margin: 0;
 }
 
 main .container .header .dados {
@@ -99,14 +92,116 @@ main .container .header .button {
     gap: 8px;
     border-radius: var(--border-radius-sm, 6px);
     background: #F2F9FD;
-
-
+    max-height: 30px;
 }
 
+main .container .cards {
+    gap: 24px;
+}
 
+main .container .cards .card {
+    padding: 12px 16px 24px 16px;
+    height: 130px;
+    border-radius: 6px;
+    background: #F2F9FD;
+    width: 251px;
+    gap: 28px;
+}
 
+main .container .cards .card h2 {
+    font-family: Archivo;
+    margin: 0;
+    font-size: 32px;
+    margin: 8px 0;
+    color: #374151;
+}
+main .container .cards .card h2 span {
+    font-size: 16px;
+}
 
+main .container .cards .card small {
+    font-size: 14px;
+}
 
+main .container h3 {
+    color: #494E57;
+    font-family: inter;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+main .container h3 span {
+    font-family: inter;
+    font-size: 16px;
+    font-weight: 300;   
+}
+
+main .container .funcoes .itens {
+    gap: 24px;
+}
+
+main .container .funcoes .itens button {
+    border: solid 1px #2E96C9;
+    border-radius: 10px;
+    box-shadow: 0px 2px 2px 0px rgba(15, 54, 121, 0.15);
+    padding: 16px;
+    min-width: 110px;
+    background-color: #fff;
+}
+
+main .container .funcoes .itens button img {
+    padding: 10px;
+    width: 32px;
+    height: 32px;
+}
+
+main .container .funcoes .itens .apagado {
+    border-radius: 10px;
+    border: 1px dashed #90CAE9;
+    background: #FCFCFC;
+    color: #90CAE9;
+}
+
+main .container .area a {
+    color: #3F5E94;
+    font-family: Inter;
+    font-size: 14px;
+    text-decoration-line: underline;
+} 
+
+main .container .area .linha {
+    color: #494E57;
+    font-family:Inter;
+    font-size: 14px;
+    border-radius: 2px;
+    border: 1px solid #DCEFF8;
+    padding: 12px 24px;
+    gap: 12px;
+}
+
+main .container .area .linha .verde {
+    background-color: #41AB34;
+}
+main .container .area .linha .azul {
+    background-color: #4FADDB;
+}
+main .container .area .linha .laranja {
+    background-color: #D42C07;
+}
+
+main .container .area .linha span {
+    width: 8px;
+    height: 8px;
+    border-radius: 10px;
+}
+
+main .container .area .linha .espacado {    
+    width: 180px;
+}
+
+main .container .area .linha div {
+    min-width: 130px;
+}
 
 
 
