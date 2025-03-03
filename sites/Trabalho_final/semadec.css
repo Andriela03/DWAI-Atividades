@@ -74,17 +74,34 @@ main .sidebar menu li .button:hover {
     background-color: #F2F9FD;
 }
 
-
-main .sidebar .menu-down {
-    
+.container {
+    padding: 52px;
 }
 
+main .container .header {
+    gap: 8px;
+}
+
+main .container .header h1 {
+    font-size: 24px;
+}
+
+main .container .header .dados {
+    gap: 16px;
+}
+
+main .container .header .dados div {
+    gap: 6px;
+}
+
+main .container .header .button {
+    padding: var(--spacing-spacing-xs, 6px) 12px;
+    gap: 8px;
+    border-radius: var(--border-radius-sm, 6px);
+    background: #F2F9FD;
 
 
-
-
-
-
+}
 
 
 
