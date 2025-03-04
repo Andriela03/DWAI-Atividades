@@ -171,40 +171,41 @@
             <section class="funcoes">
                 <h3>Funções <span>rápidas</span></h3>
 
-                <div class="itens flex">
-                    <button class="flex coluna alinhar-extremidades centralizar">
-                        <img src="img/file-text.svg" alt="icon">
-                        <small class="azul"> Relatórios</small>
-                    </button>
+                <div class="itens flex alinhar-extremidades">
+                    <div class="flex gap-3">
+                        <button class="flex coluna alinhar-extremidades centralizar">
+                            <img src="img/file-text.svg" alt="icon">
+                            <small class="azul"> Relatórios</small>
+                        </button>
+                        <button class="flex coluna alinhar-extremidades centralizar">
+                            <img src="img/user-plus.svg" alt="icon">
+                            <small class="azul">Add inscrição</small>
+                        </button>
+                        <button class="flex coluna alinhar-extremidades centralizar">
+                            <img src="img/percent.svg" alt="icon">
+                            <small class="azul">Descontos</small>
+                        </button>
+                        <button class="flex coluna alinhar-extremidades centralizar">
+                            <img src="img/users-2.svg" alt="icon">
+                            <small class="azul">Importar</small>
+                        </button>
+                        <button class="flex coluna alinhar-extremidades centralizar">
+                            <img src="img/trello.svg" alt="icon">
+                            <small class="azul">Cursos</small>
+                        </button>
+                    </div>
 
-                    <button class="flex coluna alinhar-extremidades centralizar">
-                        <img src="img/user-plus.svg" alt="icon">
-                        <small class="azul">Add inscrição</small>
-                    </button>
-
-                    <button class="flex coluna alinhar-extremidades centralizar">
-                        <img src="img/percent.svg" alt="icon">
-                        <small class="azul">Descontos</small>
-                    </button>
-
-                    <button class="flex coluna alinhar-extremidades centralizar">
-                        <img src="img/users-2.svg" alt="icon">
-                        <small class="azul">Importar</small>
-                    </button>
-
-                    <button class="flex coluna alinhar-extremidades centralizar">
-                        <img src="img/trello.svg" alt="icon">
-                        <small class="azul">Cursos</small>
-                    </button>
-
-                    <button class="apagado flex coluna alinhar-extremidades centralizar">
-                        <img src="img/plus-circle.svg" alt="icon">
-                        <small> Relatórios</small>
-                    </button>
+                    <div class="apagado">
+                        <button class="flex coluna alinhar-extremidades centralizar">
+                            <img src="img/plus-circle.svg" alt="icon">
+                            <small> Relatórios</small>
+                        </button>
+                    </div>
+                </div>
             </section>
 
-            <section class="area flex">
-                
+            <section class="area flex alinhar-extremidades">
+
                 <div class="flex coluna gap-2">
                     <div class="flex alinhar-extremidades centralizar-vertical">
                         <h3>Funções <span>rápidas</span></h3>
@@ -259,22 +260,44 @@
                 <div>
                     <h3>Inscrições <span>realizadas (%)</span></h3>
 
-                    <div>
-                        <div class="square-1">
+                    <div class="grafico flex">
+                        <div class="item flex coluna centralizar square-1">
                             <strong>33%</strong>
                             <small>63</small>
                         </div>
-                        <div class="square-2">
-                            <strong>33%</strong>
-                            <small>63</small>
+                        <div class="item flex coluna centralizar square-2">
+                            <strong>30%</strong>
+                            <small>54</small>
                         </div>
-                        <div class="square-3">
-                            <strong>33%</strong>
-                            <small>63</small>
+                        <div class="item flex coluna centralizar square-3">
+                            <strong>30%</strong>
+                            <small>54</small>
                         </div>
-                        <div class="square-4">
-                            <strong>33%</strong>
-                            <small>63</small>
+                        <div class="item flex coluna centralizar square-4">
+                            <strong class="preto">7%</strong>
+                            <small class="preto">13</small>
+                        </div>
+                    </div>
+
+                    <div class="legendas flex">
+                        <div class="legenda flex">
+                            <span class="square-1"></span>
+                            <div><strong>Info</strong>rmática</div>
+                        </div>
+
+                        <div class="legenda flex">
+                            <span class="square-2"></span>
+                            <div><strong>Info</strong>rmática</div>
+                        </div>
+
+                        <div class="legenda flex">
+                            <span class="square-3"></span>
+                            <div><strong>Info</strong>rmática</div>
+                        </div>
+                            
+                        <div class="legenda flex">
+                            <span class="square-4"></span>
+                            <div>Outros</div>
                         </div>
                     </div>
                 </div>
