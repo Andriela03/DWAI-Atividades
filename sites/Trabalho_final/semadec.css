@@ -66,6 +66,10 @@ main .sidebar figure {
     margin: 0;
 }
 
+main .sidebar i {
+    padding: 10px;
+}
+
 main .container .header {
     gap: 8px;
 }
@@ -271,6 +275,35 @@ main .area-tasks small {
     font-weight: 400;
 }
 
+main .area-tasks .tarefas {
+    gap: var(--spacing-spacing-lg, 32px);
+}
+
+main .area-tasks .tarefas-list button {
+    padding: 16px;
+    border-radius: 6px;
+    border: 1px solid #FEFEFE;
+    background: #FEFEFE;
+    box-shadow: -2px 2px 6px 0px rgba(15, 54, 121, 0.15);
+}
+
+main .area-tasks .tarefas .circle {
+    background-color: #E7EBF2;
+    border-radius: 20px;
+    padding: 10px;
+    position: relative;
+}
+
+main .area-tasks .tarefas .circle .icon {
+    background-color: #0F3679;
+    border-radius: 16px;
+    position: absolute;
+    left: 24px;
+    bottom: 28px;
+    color: #fff;
+    width: 20px;
+    height: 20px;
+}
 
 
 
