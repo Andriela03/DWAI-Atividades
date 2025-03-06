@@ -33,14 +33,23 @@ header div strong {
 main .sidebar {
     padding: 40px var(--spacing-spacing-md, 24px);
     border-right: 1px solid #E5E7EB;
-    width: 215px;
     padding: 40px;
+    position: relative;
 }
 
 main .sidebar menu{
     gap: var(--spacing-spacing-base, 16px);
     margin: 0;
     padding: 0;
+}
+
+main .sidebar menu li:hover {
+    background-color: #F2F9FD;
+}
+
+main .sidebar menu li img:active {
+    background-color: #0F3679;
+    filter: invert(100%) brightness(1000%) contrast(100%);
 }
 
 main .sidebar menu li {
@@ -60,10 +69,13 @@ main .sidebar menu .button {
     
 }
 
-main .sidebar figure {
-    justify-content: end;
+main .sidebar figure,
+main .area-tasks figure {
     width: 160px;
     margin: 0;
+    position: absolute;
+    top: 15px;
+    
 }
 
 main .sidebar i {
@@ -104,7 +116,7 @@ main .container .cards .card {
     height: 130px;
     border-radius: 6px;
     background: #F2F9FD;
-    width: 251px;
+    width: 300px;
     gap: 28px;
 }
 
@@ -141,14 +153,15 @@ main .container .funcoes .itens button {
     border-radius: 10px;
     box-shadow: 0px 2px 2px 0px rgba(15, 54, 121, 0.15);
     padding: 16px;
-    min-width: 110px;
+    width: 140px;
+    height: 120px;
     background-color: #fff;
 }
 
 main .container .funcoes .itens button img {
     padding: 10px;
-    width: 32px;
-    height: 32px;
+    width: 40px;
+    height: 40px;
 }
 
 main .container .funcoes .itens .apagado button {
@@ -156,6 +169,7 @@ main .container .funcoes .itens .apagado button {
     border: 1px dashed #90CAE9;
     background: #FCFCFC;
     color: #90CAE9;
+    box-shadow: none;
 }
 
 main .container .area a {
@@ -258,6 +272,8 @@ main .area-tasks {
     color: #0F3679;
     margin-top: 4px;
     width: 350px;
+    position: relative;
+    gap: 24px;
 
 }
 
@@ -285,6 +301,7 @@ main .area-tasks .tarefas-list button {
     border: 1px solid #FEFEFE;
     background: #FEFEFE;
     box-shadow: -2px 2px 6px 0px rgba(15, 54, 121, 0.15);
+    width: 302px;
 }
 
 main .area-tasks .tarefas .circle {
@@ -298,16 +315,46 @@ main .area-tasks .tarefas .circle .icon {
     background-color: #0F3679;
     border-radius: 16px;
     position: absolute;
-    left: 24px;
+    left: 20px;
     bottom: 28px;
     color: #fff;
     width: 20px;
     height: 20px;
 }
 
+main .area-tasks .tarefas-list button div:nth-child(2) {
+    color:#0F3679 ;
+    font-size: 16px;
+    font-weight: 600;
+}
 
+main .area-tasks .atividades a {
+    text-decoration: underline;
+    color: #092049;
+}
 
+main .area-tasks .atividades {
+    gap: var(--spacing-spacing-lg, 32px);
 
+}
+main .area-tasks .task {
+    background-color: #fff;
+    gap: 10px;
+    border-radius: 8px;
+    background: #FEFEFE;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.05);
+    padding:16px;
+}
+
+main .area-tasks .task h3 {
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0;
+}
+
+main .area-tasks .task small {
+    font-size: 12px;
+}
 
 
 

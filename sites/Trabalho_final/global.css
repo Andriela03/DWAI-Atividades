@@ -6,6 +6,12 @@ body {
 }
 
 
+.container {
+    max-width: 1200px;
+    padding: 45px;
+    gap: 32px;
+}
+
 .flex {
     display: flex;
 }
@@ -28,8 +34,9 @@ body {
 }
 
 .alinhar-direita {
-    align-self: flex-end;
+    justify-content: end;
 }
+
 
 .coluna {
     flex-direction: column;
@@ -47,12 +54,6 @@ a {
     color: #2E96C9;
 }
 
-.container {
-    max-width: 802px;
-    padding: 45px 45px 0 100px;
-    gap: 32px;
-}
-
 .gap {
     gap: 8px;
 }
@@ -62,9 +63,9 @@ a {
 }
 
 .gap-3 {
-    gap: 24px;
+    gap: 40px;
 }
-.gap-3 {
+.gap-4 {
     gap: 16px;
 }
 
