@@ -48,16 +48,14 @@ a {
 }
 
 .container {
-    max-width: 900px;
-    padding: 45px 19px 0 100px;
+    max-width: 802px;
+    padding: 45px 45px 0 100px;
     gap: 32px;
-
 }
 
 .gap {
     gap: 8px;
 }
-
 
 .gap-2 {
     gap: 4px;
@@ -65,6 +63,9 @@ a {
 
 .gap-3 {
     gap: 24px;
+}
+.gap-3 {
+    gap: 16px;
 }
 
 .preto {

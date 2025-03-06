@@ -33,13 +33,9 @@ header div strong {
 main .sidebar {
     padding: 40px var(--spacing-spacing-md, 24px);
     border-right: 1px solid #E5E7EB;
-    max-width: 167px;
-}
-
-main .sidebar {
+    width: 215px;
     padding: 40px;
 }
-
 
 main .sidebar menu{
     gap: var(--spacing-spacing-base, 16px);
@@ -187,7 +183,7 @@ main .container .area .linha .laranja {
     background-color: #D42C07;
 }
 
-main .container .area .linha span {
+main .container .circle {
     width: 8px;
     height: 8px;
     border-radius: 10px;
@@ -205,35 +201,112 @@ centralizar .linha div {
 }
 
 main .container .area .grafico .item {  
-    width: 77px;
+    width: 65px;
     padding: 0px 10px;
     height: 81px;
     color: #FFF;   
 } 
 
 main .container .area .grafico .square-1 {
-    background-color: #2E96C9;
     border-top-left-radius: 4px;
     border-bottom-left-radius:4px ;
 }
 
-main .container .area .grafico .square-2 {
-    background-color: #4FADDB;
-}
-
-main .container .area .grafico .square-3 {
-    background-color: #90CAE9;
-}
-
 main .container .area .grafico .square-4 {
-    background-color: #E4F1FA;
     border-top-right-radius: 4px;
     border-bottom-right-radius: 4px ;
 }
 
 main .container .area .legendas {
-    
+    gap: 8px;
+    font-size: 12px;
 }
+
+main .container .area .legendas .legenda {
+    gap: 6px;
+}
+
+main .cor-1 {
+    background-color: #2E96C9;
+}
+
+
+main .cor-2 {
+    background-color: #4FADDB;
+}
+
+main .cor-3 {
+    background-color: #90CAE9;
+}
+
+main .cor-4 {
+    background-color: #E4F1FA;
+}
+
+main .container .area .legendas .legenda .circle {
+    width: 12px;
+    height: 12px;
+}
+
+main .area-tasks {
+    padding: var(--spacing-spacing-xl, 48px) var(--spacing-spacing-md, 24px) var(--spacing-spacing-lg, 32px) var(--spacing-spacing-md, 24px);
+    background-color: #F2F9FD;
+    color: #0F3679;
+    margin-top: 4px;
+    width: 350px;
+
+}
+
+main .area-tasks figure {
+    margin: 0;
+}
+
+main .area-tasks h2 {
+    font-size: 18px;
+    margin: 11px 0 4px 0;
+}
+
+main .area-tasks small {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
