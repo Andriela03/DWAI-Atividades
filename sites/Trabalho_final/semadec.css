@@ -16,10 +16,17 @@ header .progress-circle img {
     width: 23px;
     height: 23px;
     border-radius: 50%;
+    box-sizing: border-box;
+    margin: 3px;
+}
+header .progress-circle {
+    border: 2px solid #E5E7EB;
+    border-radius: 20px;
 }
 
 header button:hover {
     background-color: #FD8535;
+    cursor: pointer;
 }
 
 header div {
@@ -47,9 +54,18 @@ main .sidebar menu li:hover {
     background-color: #F2F9FD;
 }
 
-main .sidebar menu li img:active {
+main .sidebar menu li:active span{
     background-color: #0F3679;
+}
+
+main .sidebar menu li:active img{
     filter: invert(100%) brightness(1000%) contrast(100%);
+}
+main .sidebar .menu-down li i {
+    color: #0d5eaf;
+}
+main .sidebar .menu-down li:active i {
+    color: #fff;
 }
 
 main .sidebar menu li {
@@ -58,6 +74,7 @@ main .sidebar menu li {
 
 main .sidebar menu a {
     color: #0D5EAF;
+    margin-left: 5px;
 }
 
 main .sidebar menu img {
@@ -156,12 +173,30 @@ main .container .funcoes .itens button {
     width: 140px;
     height: 120px;
     background-color: #fff;
+    cursor: pointer;
+}
+
+main .container .funcoes .itens button:hover {
+    background-color: #2E96C9;
+    transition: all 0.3s ease;
 }
 
 main .container .funcoes .itens button img {
     padding: 10px;
     width: 40px;
     height: 40px;
+}
+main .container .funcoes .itens button small {
+    color: #2E96C9;
+}
+main .container .funcoes .itens button:hover img{
+    filter: invert(100%) brightness(1000%) contrast(100%);
+    transition: filter 0.3s ease; 
+}
+
+main .container .funcoes .itens button:hover small {
+    transition: 0.3s ease; 
+    color: #fff;
 }
 
 main .container .funcoes .itens .apagado button {
@@ -171,6 +206,11 @@ main .container .funcoes .itens .apagado button {
     color: #90CAE9;
     box-shadow: none;
 }
+
+main .container .funcoes .itens .apagado button:hover {
+    background-color: #2E96C9;
+    border: #FFF dashed 1px;
+} 
 
 main .container .area a {
     color: #3F5E94;
@@ -188,6 +228,19 @@ main .container .area .linha {
     padding: 12px 24px;
     gap: 12px;
 }
+
+main .container .area .linha-sombreada {
+    position: relative;
+}
+
+main .container .area .linha .sombra {
+    gap: 12px;
+    position: absolute;
+    left: 0px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.25) 0%, #ffffff 77.9%);
+    width: 430px;
+    height: 43px;
+} 
 
 main .container .area .linha .verde {
     background-color: #41AB34;
@@ -298,10 +351,27 @@ main .area-tasks .tarefas {
 main .area-tasks .tarefas-list button {
     padding: 16px;
     border-radius: 6px;
-    border: 1px solid #FEFEFE;
+    border: none;
     background: #FEFEFE;
     box-shadow: -2px 2px 6px 0px rgba(15, 54, 121, 0.15);
     width: 302px;
+    cursor: pointer;
+}
+
+main .area-tasks .tarefas-list button:hover, 
+main .area-tasks .tarefas-list button:hover .descricao,
+main .area-tasks .tarefas-list button:hover .icon {
+    background-color: #0D5EAF;
+    color:#fff;
+}
+
+main .area-tasks .tarefas-list button:hover .circle {
+    background-color:#0D5EAF;
+    border: 1px solid #fff;
+}
+
+main .area-tasks .tarefas-list button:hover img {
+    filter: invert(100%) brightness(1000%) contrast(100%);
 }
 
 main .area-tasks .tarefas .circle {
@@ -337,13 +407,18 @@ main .area-tasks .atividades {
     gap: var(--spacing-spacing-lg, 32px);
 
 }
+
 main .area-tasks .task {
     background-color: #fff;
     gap: 10px;
     border-radius: 8px;
-    background: #FEFEFE;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.05);
-    padding:16px;
+    padding: 16px;
+    cursor: pointer;
+}
+
+main .area-tasks .task:hover {
+    background-color: #E3F4FE;
 }
 
 main .area-tasks .task h3 {
