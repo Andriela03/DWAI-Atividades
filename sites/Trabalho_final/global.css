@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+body {
+    font-family: "inter";
+    margin: 0;
+}
+
+
+.container {
+    max-width: 1200px;
+    padding: 45px;
+    gap: 32px;
+}
+
+.flex {
+    display: flex;
+}
+
+.centralizar {
+    justify-content: center;
+    align-items: center;
+}
+
+.centralizar-vertical {
+    align-items: center;
+}
+
+.centralizar-horizontal {
+    justify-content: center;
+}
+
+.alinhar-extremidades {
+    justify-content: space-between;
+}
+
+.alinhar-direita {
+    justify-content: end;
+}
+
+
+.coluna {
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+}
+
+.cinza {
+    color: #797D84;
+}
+
+.azul {
+    color: #2E96C9;
+}
+
+.gap {
+    gap: 8px;
+}
+
+.gap-2 {
+    gap: 4px;
+}
+
+.gap-3 {
+    gap: 40px;
+}
+.gap-4 {
+    gap: 16px;
+}
+
+.preto {
+    color: black;
+}
